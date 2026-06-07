@@ -1,7 +1,3 @@
-//Always do it in this form , so that it will not create unnecessary confusion inside the circuit and this 
-// would eliminate the confusion and occurs step by step. 
-// And also declare the default values so that it will not create unnecessary latches.
-
 module GCD_datapath (gt , lt , eq , ldA , ldB , sel1 , sel2 , sel_in , data_in , clk);
 input ldA , ldB , sel1 , sel2 , sel_in , clk;
 input [15:0] data_in;
